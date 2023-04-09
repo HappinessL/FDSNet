@@ -130,7 +130,7 @@ class DenseBlock(nn.Module):
         return x5
 
 class FrequencySplitModule(nn.Module):
-    def __init__(self, channel_in=3, channel_out=3, channels=32, block_num=[]):
+    def __init__(self, channel_in=3, channel_out=3, channels=64, block_num=[]):
         super(FrequencySplitModule, self).__init__()
         self.down1 = HaarDownsampling(channel_in)
         current_channel = channel_in * 4
