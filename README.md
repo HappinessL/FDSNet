@@ -6,3 +6,5 @@ Although existing super-resolution (SR) techniques have made great progress, the
 
 ## FDSNet
 ![Image text](https://github.com/HappinessL/FDSNet/blob/main/FDSNet.png)
+## TransBlock
+![Image text](https://github.com/HappinessL/FDSNet/blob/main/Transformer.png)
